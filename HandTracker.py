@@ -6,7 +6,7 @@ import HandTrackerModule as htm
 
 pTime = 0
 oTime = 0
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 detector = htm.handDetector()
 
 
